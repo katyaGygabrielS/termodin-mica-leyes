@@ -21,11 +21,16 @@ header {
 
 .title {
     margin-right: 20px;
-    color: white; /* Asegúrate de que el texto sea blanco */
+    color: white;
 }
 
 nav {
-    display: none; /* Ocultamos el menú inicialmente */
+    position: absolute; /* Asegúrate de que el menú esté sobre el contenido */
+    top: 50px; /* Ajusta según sea necesario */
+    left: 0;
+    background-color: #B22222; /* Color del fondo del menú */
+    border: 1px solid white; /* O el color que prefieras */
+    display: none; /* Inicialmente oculto */
 }
 
 nav ul {
