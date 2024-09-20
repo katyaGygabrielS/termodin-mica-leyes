@@ -21,16 +21,10 @@ header {
 
 .title {
     margin-right: 20px;
-    color: white;
 }
 
 nav {
-    position: absolute; /* Asegúrate de que el menú esté sobre el contenido */
-    top: 50px; /* Ajusta según sea necesario */
-    left: 0;
-    background-color: #B22222; /* Color del fondo del menú */
-    border: 1px solid white; /* O el color que prefieras */
-    display: none; /* Inicialmente oculto */
+    display: none; /* Ocultamos el menú inicialmente */
 }
 
 nav ul {
@@ -71,3 +65,4 @@ section {
     margin: 20px auto; /* Para centrar la sección */
     max-width: 800px; /* Ancho máximo para evitar que sea demasiado ancho */
 }
+
