@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center; /* Centra todo el texto en el body */
 }
 
 header {
@@ -36,7 +37,7 @@ header {
     background-color: #B22222;
     padding: 0;
     margin-top: 10px;
-    display: none;
+    display: none; /* Inicialmente oculto */
     position: absolute;
     left: 0;
     top: 100%;
@@ -58,10 +59,12 @@ header {
 .title h1 {
     margin-right: 20px;
     font-size: 24px;
+    color: white; /* Asegúrate de que el texto sea blanco */
 }
 
 main {
     padding: 20px;
+    text-align: center; /* Centra el texto en el main */
 }
 
 h2 {
@@ -77,5 +80,5 @@ p {
     width: 100%;
     max-width: 400px;
     display: block;
-    margin: 20px 0;
+    margin: 20px auto; /* Asegura que la imagen esté centrada */
 }
