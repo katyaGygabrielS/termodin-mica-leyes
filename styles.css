@@ -59,7 +59,7 @@ header {
 .title h1 {
     margin-right: 20px;
     font-size: 24px;
-    color: white; /* Asegúrate de que el texto sea blanco */
+    color: white; /* Título en blanco */
 }
 
 main {
@@ -68,8 +68,9 @@ main {
 }
 
 h2 {
-    color: #B22222;
+    color: black; /* Cambia el color a negro */
     margin-bottom: 10px;
+    font-weight: bold; /* Negrita */
 }
 
 p {
@@ -81,4 +82,14 @@ p {
     height: 194px; /* Establece la altura a 194 píxeles */
     display: block;
     margin: 20px auto; /* Asegura que la imagen esté centrada */
+    border: 2px solid #B22222; /* Marco del mismo color que la página */
+}
+
+.section {
+    border: 2px solid #B22222; /* Marco alrededor de cada sección */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    margin: 20px auto; /* Espaciado vertical */
+    max-width: 800px; /* Máximo ancho de la sección */
 }
