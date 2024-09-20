@@ -17,6 +17,11 @@ header {
     position: relative;
 }
 
+.title {
+    margin-right: 20px;
+    color: white; /* Cambiamos el color a blanco */
+}
+
 #menu-toggle {
     background-color: #B22222;
     color: white;
