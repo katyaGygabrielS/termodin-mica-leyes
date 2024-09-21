@@ -91,4 +91,5 @@ p {
     background-color: #ffffff; /* Fondo blanco para las secciones */
     margin: 20px auto; /* Espaciado vertical */
     max-width: 800px; /* Máximo ancho de la sección */
+    position: relative; /* Asegura que el marco se ajuste al texto */
 }
